@@ -1,0 +1,63 @@
+.Newsletter{
+    background-color: rgb(221, 157, 157);
+    border-style: double;
+    width: fit-content;
+    border-color: red;
+    font-size: 30px;
+}
+.mt1{
+    color: white;
+    background-color: darkcyan;
+    border-style: double solid;
+    text-align: center;
+    border-color: red;
+    border-radius: 7px;
+    padding: 1px;
+    margin: 10px;
+}
+.mt1:hover{
+    color: darkblue;
+    transition: 0.4s;
+}
+.sbm {
+    background-color: rgb(52, 15, 185);
+    color: aliceblue;
+}
+.sbm:hover{
+    color: red;
+    transition: 0.4s;
+    
+}
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(221, 181, 221);
+    margin: 15px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: deeppink;
+  }
+  .navbar a:hover {
+    color: gold;
+  }
+  .img {
+    margin-left: 40%;
+    display: flex;
+  }
+  .logo {
+    margin: 30px;
+  }
+
+  .ct1{
+    font-size: 30px;
+  }
+
+  .Newsletter, input, button {
+    font-size: 30px;
+  }

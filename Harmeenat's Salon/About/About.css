@@ -1,0 +1,74 @@
+.mt1{
+    color: white;
+    background-color: darkcyan;
+    border-style: double solid;
+    text-align: center;
+    border-color: red;
+    border-radius: 7px;
+    padding: 1px;
+    margin: 10px;
+}
+.mt1:hover{
+    color: darkblue;
+    transition: 0.4s;
+}
+.sbm {
+    background-color: rgb(52, 15, 185);
+    color: aliceblue;
+}
+.sbm:hover{
+    color: red;
+    transition: 0.4s;
+    
+}
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(221, 181, 221);
+    margin: 15px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: deeppink;
+    font-size: 25px;
+  }
+  .navbar a:hover {
+    color: gold;
+  }
+  .img {
+    margin-left: 40%;
+    display: flex;
+  }
+  .logo {
+    margin: 30px;
+  }
+  .w1{
+    font-family: sans-serif;
+    color: cadetblue;
+    text-align: center;
+    font-size: 50px;
+  }
+  .intro{
+    font-size: 30px;
+  }
+  .intro1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color:rgb(4, 38, 39);
+  }
+  .btn1{
+    margin-left: 350px;
+    background: darkblue;
+    color: antiquewhite;
+    font-size: 25px;
+    border: 2px solid red;
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  .btn1:hover{
+    color: chartreuse;
+  }
