@@ -1,0 +1,134 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(221, 181, 221);
+    margin: 15px;
+    
+}
+
+.logo{
+    margin: 30px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color:deeppink;    
+}
+
+.navbar a:hover{
+    color: gold;
+    transition: 0.4s;
+}
+
+.logo{
+    margin-left: 40%;
+}
+
+.IMG2{
+    float: right;
+}
+.btn1{
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    margin-top: 40%;
+    
+}
+
+.hero-right{
+    padding-bottom: 30px;
+}
+
+video{
+    background: url(/Videos/Wig\ Ad.mp4);
+    width: 17%;
+    height: auto;
+    margin-left: 45%;
+    border-style:double solid;
+    border-color: cadetblue;
+    border-radius: 20px;
+}
+footer{
+    justify-content: center;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(109, 108, 108);
+}
+.footer-top_box{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container .footer-top_box a{
+    text-decoration: none;
+    color:rgb(10, 78, 95);
+}
+
+.container .footer-top_box a:hover{
+    color: rgb(131, 33, 33);
+    transition: 0.4s;
+}
+.IMG{
+    float: right;
+    display: flex;
+    border-style:double solid;
+    width: 30%;
+    border-color: cadetblue;
+}
+
+.new1{
+    color: gray;
+    font-family: 'Times New Roman';
+    
+}
+
+.new2{
+    margin-left: 80px;
+    color: rgb(185, 126, 53);
+}
+
+.btn2{
+    width: 20%;
+    height: 50px;
+    margin: 0% 0% 10% 44%;
+    border: 3px solid rgb(34, 16, 77);
+    background: rgb(190, 95, 95);
+}
+
+.btn2 a{
+    color: white;
+}
+
+.btn2 a:hover{
+    color: rgb(47, 231, 231);
+    transition: 0.4s;
+}
+button a{
+    text-decoration: none;
+    font-size:larger;
+}
+.ct1{
+    text-align: center;
+}
+.ct1 .mt1:hover{
+    color: rgb(169, 34, 182);
+    transition: 0.3s;
+}
+.New1{
+    color: rgb(179, 91, 9);
+    
+}
+.New2{
+    font-size: larger;
+    font-style: oblique;
+    font-family: sans-serif;
+}
